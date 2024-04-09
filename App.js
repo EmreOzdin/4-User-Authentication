@@ -42,7 +42,6 @@ function AuthenticatedStack() {
 function Navigation() {
   return (
     <AuthContextProvider>
-      {" "}
       <NavigationContainer>
         <AuthStack />
       </NavigationContainer>
